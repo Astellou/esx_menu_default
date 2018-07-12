@@ -1,0 +1,134 @@
+@font-face {
+  font-family: SignPainter;
+  src: url('../fonts/pdown.ttf');
+}
+
+@font-face {
+  font-family: vo;
+  src: url('../fonts/bankgothic.ttf');
+}
+
+@font-face {
+  font-family: glitch;
+  src: url('../fonts/v.ttf');
+}
+
+
+.menu {
+  font-family: vo;
+  min-width  : 400px;
+  max-width: 380px;
+  color      : #fff;
+  left: 40;
+  top : 80; 
+  position   : absolute;
+}
+
+.menu.align-left {
+  right: : 40;
+  top : 80; 
+
+}
+
+.menu.align-top-left {
+  left: 40;
+  top : 100; 
+}
+
+.menu.align-top {
+  left: 40;
+  top : 80; 
+}
+
+.menu.align-top-right {
+  left: 40;
+  top : 280; 
+}
+
+.menu.align-right {
+  left: 40;
+  top : 80; 
+}
+
+.menu.align-bottom-right {
+  left: 40;
+  top : 80; 
+}
+
+.menu.align-bottom {
+  left: 40;
+  top : 80; 
+}
+
+.menu.align-bottom-left {
+  right: 40;
+  bottom : 80; 
+}
+.menu.align-center {
+  left: 40;
+  top : 80; 
+
+}
+
+.menu .head {
+  font-family: SignPainter;  
+  font-size: 59px;
+
+  background: linear-gradient(to left bottom,   #3A539B,  #1F3A93 );
+  text-align      : center;
+  height          : 90px;
+  line-height     : 105px;
+  color : white;
+  font-style: oblique;
+
+
+}
+
+
+.menu .head_default{
+  font-family: SignPainter;  
+  font-size: 59px;
+
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align      : center;
+  height          : 70px;
+  line-height     : 70px;
+  color : white;
+  font-style: oblique;
+}
+
+.menu .categorie {
+  font-family:  vo;
+  font-size       : 23px;
+  height          : 35px;
+  line-height     : 35px;
+    padding: 0 10px;
+  color: #59ABE3  ;
+  background-color: rgba(0, 0, 0, 0.7);
+
+}
+.menu .menu-items {
+    max-height : 350px;
+    overflow-y : hidden;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.menu .menu-items .menu-item {
+
+  display         : block;
+  font-size       : 21px;
+  height          : 35px;
+  line-height     : 35px;
+  color           : white;
+  text-align      : left;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu .menu-items .menu-item.selected {
+  background-color: white;
+
+  color :black;
+}
+
+
